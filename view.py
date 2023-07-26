@@ -7,8 +7,7 @@ def app(car_df):
     # Displaying orginal dataset
     st.header("View Data")
     # Add an expander and display the dataset as a static table within the expander.
-    with st.beta_expander("View Dataset"):
-        st.table(car_df)
+    st.table(car_df)
 
     # Display descriptive statistics.
     st.subheader("Columns Description:")
